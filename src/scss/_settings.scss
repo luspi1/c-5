@@ -21,8 +21,8 @@ body {
 }
 
 main {
-  padding-top: 120px;
   min-height: calc(100vh - 285px);
+  position: relative;
 
   @media (max-width: 768px) {
     padding-top: 104px;
@@ -305,7 +305,7 @@ h1 {
   @include montserrat-medium;
   line-height: 22px;
   background: #033E7D;
-  padding: 12px 50px;
+  padding: 12px 48px;
   text-transform: uppercase;
   transition: all .3s;
 

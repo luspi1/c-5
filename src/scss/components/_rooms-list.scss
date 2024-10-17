@@ -37,7 +37,8 @@
   }
 
   &__content {
-    padding: 26px 33px 44px 33px;
+    padding: 16px 33px 44px 33px;
+    line-height: 1.15;
     display: block;
     color: #000000;
     transition: all .3s;
@@ -56,7 +57,7 @@
   }
 
   &__title {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     @include book-bold;
     font-size: 24px;
   }
